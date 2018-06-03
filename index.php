@@ -1,6 +1,10 @@
-<!html>
+
+<!DOCTYPE html>
+<html>
+
 <head>
-<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
 
 <style>
             html, body{height: 100%;}
