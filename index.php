@@ -10,15 +10,14 @@
 
 <?php
 
-define('KEY','VqiYRADw054J3ZZeRigyPG0w8');
-define('SECRET', 'yS1FqYtxLi5FKzVi9MjOufhFRBrwOGbxm3GzCgSMpl37bVQwsx');
+include 'app.php';
 
 include_once('GetTwitterFeed.class.php');
 
 $retrieveUrl = "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=". $_SESSION["username"];
 
-$consumer_key = KEY;
-$consumer_key_secret = SECRET;
+$consumer_key = KEY; // twitter api consumer key
+$consumer_key_secret = SECRET; //twiitter consumer secret
 
 $objTwitter = new GetTwitterFeed($retrieveUrl, $consumer_key, $consumer_key_secret);
 
