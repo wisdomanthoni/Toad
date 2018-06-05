@@ -72,7 +72,7 @@ $count_feed = count($raw_feed);
       <div class="col-md-5 p-lg-5 mx-auto my-5">
         <form method="GET" accept="">
             <div class="input-group mb-3">
-                  <input type="text" class="form-control" name="username" placeholder="Search for videos via a handle username " aria-label="Search username" aria-describedby="basic-addon2">
+                  <input type="text" class="form-control" name="username" placeholder="Search for videos via a handle username: e.g TwitterVideo " aria-label="Search username" aria-describedby="basic-addon2">
                   <div class="input-group-append">
                     <button class="btn btn-outline-secondary" type="submit">Get Video</button>
                   </div>
