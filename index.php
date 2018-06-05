@@ -113,7 +113,7 @@ then you download .</small></p>
                                         Your browser does not support the video tag.
                                         </video> </p>";
 
-                                        echo " <p><a class='btn btn-successs' href='" . $strip['url'] ."' role='button'>Download</a></p></div>" ;
+                                        echo " <a class='btn btn-successs' href='" . $strip['url'] ."' role='button'>Download</a></div>" ;
 
                                     }
                                 }
